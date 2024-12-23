@@ -75,17 +75,13 @@
 .staff__title {
   justify-content: center;
   color: white;
-  font-size: 50px; /* Ajustado según el brief */
-  line-height: 1.3; /* Ajustado según el brief */
-  font-weight: 600; /* Ajustado según el brief */
-  margin: 0 0 24px 0; /* Márgenes ajustados según el brief */
+  font-size: 45px;
 }
 
 .staff__subtitle {
   color: white;
-  font-size: 28px; /* Ajustado según el brief */
-  line-height: 1.4; /* Ajustado según el brief */
-  margin: 0 0 40px 0; /* Márgenes ajustados según el brief */
+  margin-bottom: 68px;
+  font-size: 30px;
 }
 
 .list {
@@ -102,8 +98,7 @@
   width: 360px;
   height: 420px;
   background-color: white;
-  border-radius: 10px; /* Ajustado según el brief */
-  padding: 24px; /* Ajustado según el brief */
+  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -121,8 +116,7 @@
   z-index: 1;
   background-image: url("/images/staff_picks_background.jpg");
   background-size: cover;
-  padding-top: 80px; /* Ajustado según el brief */
-  padding-bottom: 80px; /* Ajustado según el brief */
+  padding: 100px 100px 140px 100px;
 }
 
 .staff__cards {
@@ -132,8 +126,7 @@
   justify-content: center;
   list-style-type: none;
   gap: 40px;
-  margin-top: 40px; /* Ajustado según el brief */
-  margin-bottom: 40px; /* Ajustado según el brief */
+  padding: 0;
 }
 
 .card__content {
@@ -144,21 +137,19 @@
 }
 
 .card__title {
-  font-size: 22px; /* Ajustado según el brief */
-  line-height: 1.4; /* Ajustado según el brief */
-  margin: 0 0 16px 0; /* Márgenes ajustados según el brief */
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .card__text {
-  font-size: 16px; /* Ajustado según el brief */
-  line-height: 1.6; /* Ajustado según el brief */
-  margin: 0 0 20px 0; /* Márgenes ajustados según el brief */
+  justify-content: center;
+  font-size: 15px;
+  line-height: 22px;
 }
 
 .card__footer {
-  font-size: 14px; /* Ajustado según el brief */
-  line-height: 1.4; /* Ajustado según el brief */
   color: #838383;
+  margin: auto 0 0;
 }
 
 .header__content {
