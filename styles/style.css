@@ -76,6 +76,11 @@
   justify-content: center;
   color: white;
   font-size: 45px;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0 0 24px;
 }
 
 .staff__subtitle {
