@@ -79,7 +79,6 @@
   font-size: 44px;
   line-height: 52px;
   font-weight: 400;
-  color: #fff;
   margin: 0 0 24px;
 }
 
@@ -145,6 +144,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   height: 100%;
+  background-color: white;
 }
 
 .card__title {
@@ -166,10 +166,6 @@
   margin: 0;
   margin-top: auto;
   color: #838383;
-}
-
-.header__content {
-  background-color: white;
 }
 
 .header__footer {
