@@ -4,6 +4,10 @@
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 20px;
+<<<<<<< HEAD
+=======
+  margin: 0 auto;
+>>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
 }
 
 .header {
@@ -37,6 +41,10 @@
   column-gap: 20px;
   list-style: none;
   padding: 0px;
+<<<<<<< HEAD
+=======
+  list-style-type: none;
+>>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
 }
 
 .nav__link {
@@ -74,12 +82,25 @@
   justify-content: center;
   color: white;
   font-size: 45px;
+<<<<<<< HEAD
+=======
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 400;
+  margin: 0 0 24px;
+>>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
 }
 
 .staff__subtitle {
   color: white;
   margin-bottom: 68px;
   font-size: 30px;
+<<<<<<< HEAD
+=======
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+>>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
 }
 
 .list {
@@ -95,8 +116,14 @@
 .card {
   width: 360px;
   height: 420px;
+<<<<<<< HEAD
   background-color: white;
   padding: 20px;
+=======
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 32px 40px 20px 32px;
+>>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
   box-sizing: border-box;
 }
 
@@ -112,6 +139,7 @@
   align-items: center;
   margin: 0 auto;
   z-index: 1;
+<<<<<<< HEAD
 }
 
 .staff__cards {
@@ -122,6 +150,22 @@
   list-style-type: none;
   gap: 40px;
   padding: 0;
+=======
+  background-image: url("/images/staff_picks_background.jpg");
+  background-size: cover;
+  padding: 100px 100px 140px 100px;
+}
+
+.staff__cards {
+  max-width: 760px;
+  margin: 68px auto 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+>>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
 }
 
 .card__content {
@@ -129,10 +173,15 @@
   flex-direction: column;
   justify-content: space-evenly;
   height: 100%;
+<<<<<<< HEAD
+=======
+  background-color: white;
+>>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
 }
 
 .card__title {
   font-size: 20px;
+<<<<<<< HEAD
   line-height: 1.5;
 }
 
@@ -149,6 +198,25 @@
 
 .header__content {
   background-color: white;
+=======
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card__text {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 20px 0 0;
+}
+
+.card__footer {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  margin-top: auto;
+  color: #838383;
+>>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
 }
 
 .header__footer {
@@ -170,6 +238,7 @@
   margin: 0;
   color: #838383;
 }
+<<<<<<< HEAD
 
 .events {
   padding: 100px 0 120px 80px;
@@ -294,3 +363,5 @@
   font-size: 14px;
   margin: 0; */
 }
+=======
+>>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
