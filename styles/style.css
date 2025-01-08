@@ -1,0 +1,296 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  /* Agrega las propiedades flex aquí */
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 58px;
+  height: 80px;
+}
+
+.nav__links {
+  /* Restablece los estilos predeterminados de list aquí */
+  margin: 8px 0 0;
+  display: flex;
+  column-gap: 20px;
+  list-style: none;
+  padding: 0px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  margin-top: 128px;
+  max-width: 635px;
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+}
+
+.header__description {
+  margin-top: 32px;
+  max-width: 515px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  display: flex;
+  max-width: 636px;
+}
+
+.staff__title {
+  justify-content: center;
+  color: white;
+  font-size: 45px;
+}
+
+.staff__subtitle {
+  color: white;
+  margin-bottom: 68px;
+  font-size: 30px;
+}
+
+.list {
+  display: flex;
+  max-width: 760px;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  gap: 40px;
+  padding: 0;
+}
+
+.card {
+  width: 360px;
+  height: 420px;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url(/images/staff_picks_background.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.staff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.staff__cards {
+  display: flex;
+  max-width: 760px;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  gap: 40px;
+  padding: 0;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.card__title {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.card__text {
+  justify-content: center;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.card__footer {
+  color: #838383;
+  margin: auto 0 0;
+}
+
+.header__content {
+  background-color: white;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  margin: auto 0 0;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__address {
+  margin: 0;
+  color: #838383;
+}
+
+.events {
+  padding: 100px 0 120px 80px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.events__content {
+  flex-basis: 580px;
+}
+
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0 0;
+}
+
+.events__info-section {
+  margin-top: 32px;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.event-info__icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  margin: 40px 0 60px;
+}
+
+.events__more {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.events__cover {
+  /* flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 780px;
+  max-width: 780px;
+  position: relative; */
+}
+
+.events__image {
+  /* max-width: 100%; */
+}
+
+.person {
+  /* position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px; */
+}
+
+.person_name_feynman {
+  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+}
+
+.person_name_burbidge {
+  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+}
+
+.person_name_cannon {
+  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+}
+
+.person_name_mitchell {
+  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+}
+
+.person_name_tarter {
+  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+}
+
+.person__image {
+  /* max-width: 100%; */
+}
+
+.person__image_size_l {
+  /* width: 140px; */
+}
+
+.person__image_size_m {
+  /* width: 100px; */
+}
+
+.person__image_size_s {
+  /* width: 80px; */
+}
+
+.person__caption {
+  /* text-align: center;
+  font-size: 14px;
+  margin: 0; */
+}
