@@ -4,10 +4,7 @@
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 20px;
-<<<<<<< HEAD
-=======
   margin: 0 auto;
->>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
 }
 
 .header {
@@ -41,10 +38,7 @@
   column-gap: 20px;
   list-style: none;
   padding: 0px;
-<<<<<<< HEAD
-=======
   list-style-type: none;
->>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
 }
 
 .nav__link {
@@ -82,25 +76,19 @@
   justify-content: center;
   color: white;
   font-size: 45px;
-<<<<<<< HEAD
-=======
   font-size: 44px;
   line-height: 52px;
   font-weight: 400;
   margin: 0 0 24px;
->>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
 }
 
 .staff__subtitle {
   color: white;
   margin-bottom: 68px;
   font-size: 30px;
-<<<<<<< HEAD
-=======
   font-size: 20px;
   line-height: 30px;
   margin: 0;
->>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
 }
 
 .list {
@@ -116,14 +104,9 @@
 .card {
   width: 360px;
   height: 420px;
-<<<<<<< HEAD
-  background-color: white;
-  padding: 20px;
-=======
   background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
->>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
   box-sizing: border-box;
 }
 
@@ -139,18 +122,6 @@
   align-items: center;
   margin: 0 auto;
   z-index: 1;
-<<<<<<< HEAD
-}
-
-.staff__cards {
-  display: flex;
-  max-width: 760px;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style-type: none;
-  gap: 40px;
-  padding: 0;
-=======
   background-image: url("/images/staff_picks_background.jpg");
   background-size: cover;
   padding: 100px 100px 140px 100px;
@@ -165,7 +136,6 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
->>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
 }
 
 .card__content {
@@ -173,32 +143,11 @@
   flex-direction: column;
   justify-content: space-evenly;
   height: 100%;
-<<<<<<< HEAD
-=======
   background-color: white;
->>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
 }
 
 .card__title {
   font-size: 20px;
-<<<<<<< HEAD
-  line-height: 1.5;
-}
-
-.card__text {
-  justify-content: center;
-  font-size: 15px;
-  line-height: 22px;
-}
-
-.card__footer {
-  color: #838383;
-  margin: auto 0 0;
-}
-
-.header__content {
-  background-color: white;
-=======
   line-height: 30px;
   font-weight: 700;
   margin: 0;
@@ -216,7 +165,6 @@
   margin: 0;
   margin-top: auto;
   color: #838383;
->>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
 }
 
 .header__footer {
@@ -238,130 +186,3 @@
   margin: 0;
   color: #838383;
 }
-<<<<<<< HEAD
-
-.events {
-  padding: 100px 0 120px 80px;
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
-  box-sizing: border-box;
-  background-color: #f2f2f2;
-}
-
-.events__content {
-  flex-basis: 580px;
-}
-
-.events__heading {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 30px;
-  margin: 0;
-}
-
-.events__title {
-  font-size: 44px;
-  font-weight: 500;
-  line-height: 52px;
-  margin: 32px 0 0;
-}
-
-.events__info-section {
-  margin-top: 32px;
-}
-
-.event-info__item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 4px;
-  font-weight: 500;
-}
-
-.event-info__icon {
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 12px;
-  width: 24px;
-  height: 24px;
-}
-
-.event-info__text {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 30px;
-  margin: 0;
-}
-
-.events__description {
-  margin: 40px 0 60px;
-}
-
-.events__more {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
-.events__cover {
-  /* flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 780px;
-  max-width: 780px;
-  position: relative; */
-}
-
-.events__image {
-  /* max-width: 100%; */
-}
-
-.person {
-  /* position: absolute;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px; */
-}
-
-.person_name_feynman {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-}
-
-.person_name_burbidge {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-}
-
-.person_name_cannon {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-}
-
-.person_name_mitchell {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-}
-
-.person_name_tarter {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-}
-
-.person__image {
-  /* max-width: 100%; */
-}
-
-.person__image_size_l {
-  /* width: 140px; */
-}
-
-.person__image_size_m {
-  /* width: 100px; */
-}
-
-.person__image_size_s {
-  /* width: 80px; */
-}
-
-.person__caption {
-  /* text-align: center;
-  font-size: 14px;
-  margin: 0; */
-}
-=======
->>>>>>> 6637bca24d3559236f16fa5564c14da465220dfc
